@@ -17,7 +17,7 @@ const VideoNav = () => {
     dispatch(logoutUser());
   };
 
-  const DiscordLink = "http://localhost:5000/auth";
+  const DiscordLink = "http://145.223.117.247/auth";
   const { myBetaApp, createdBetaApp, rejectedApp, acceptedApp } = useSelector(
     (state) => state.beta
   );

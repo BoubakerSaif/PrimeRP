@@ -9,7 +9,9 @@ export const loginUser = createAsyncThunk(
     axios.defaults.withCredentials = true;
 
     try {
-      const { data } = await axios.get("http://localhost:5000/auth/user/me");
+      const { data } = await axios.get(
+        `$http://${import.meta.env.BACK_URL}:5000/auth/user/me`
+      );
       dispatch(setCredentials(data));
       // toast.success("Logged in");
       return data;
@@ -23,7 +25,9 @@ export const logoutUser = createAsyncThunk(
   "user/logout",
   async (payload, { dispatch }) => {
     try {
-      const { data } = await axios.post("http://localhost:5000/auth/logout");
+      const { data } = await axios.post(
+        `http://${import.meta.env.BACK_URL}:5000/auth/logout`
+      );
       dispatch(clearCredentials());
       return data;
     } catch (error) {

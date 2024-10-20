@@ -17,7 +17,7 @@ const VideoNav = () => {
     dispatch(logoutUser());
   };
 
-  const DiscordLink = "http://145.223.117.247/auth";
+  const DiscordLink = `http://${import.meta.env.BACK_URL}/auth`;
   const { myBetaApp, createdBetaApp, rejectedApp, acceptedApp } = useSelector(
     (state) => state.beta
   );

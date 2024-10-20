@@ -150,7 +150,9 @@ const BetaApps = () => {
                   </p>
                   <p className="mb-2 flex flex-col">
                     <strong> Admin who checked this App :</strong>
-                    {selectedEntry.treatedBy.global_name}
+                    {selectedEntry?.treatedBy?.global_name
+                      ? selectedEntry.treatedBy.global_name
+                      : ""}
                   </p>
 
                   <p className="mb-2 flex flex-col">

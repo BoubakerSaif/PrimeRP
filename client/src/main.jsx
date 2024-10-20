@@ -16,12 +16,15 @@ import Dashboard from "./Pages/Dashboard.jsx";
 import Terms from "./Pages/Terms.jsx";
 import CookiesPolicy from "./Pages/CookiesPolicy.jsx";
 import PrivacyPolicy from "./Pages/PrivacyPolicy.jsx";
+import PrivateAdminRoute from "./Components/PrivateAdminRoute.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<App />}>
       <Route index={true} path="/" element={<Home />} />
-      <Route path="/dashboard" element={<Dashboard />} />
+      <Route path="" element={<PrivateAdminRoute />}>
+        <Route path="/dashboard" element={<Dashboard />} />
+      </Route>
       <Route path="/joinus" element={<How />} />
       <Route path="/rpguide" element={<RPGuide />} />
       <Route path="/terms" element={<Terms />} />

@@ -16,7 +16,7 @@ connectDB();
 const port = process.env.PORT;
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(cors({ credentials: true, origin: "http://localhost:3000" }));
+app.use(cors({ credentials: true, origin: process.env.CLIENT_REDIRECT_URL }));
 app.use(cookieParser());
 app.use("/auth", userRoutes);
 app.use("/whiteApp", whiteListRoutes);

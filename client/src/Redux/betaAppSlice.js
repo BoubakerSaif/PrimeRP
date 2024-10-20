@@ -8,7 +8,7 @@ export const createBetaApp = createAsyncThunk(
       axios.defaults.withCredentials = true;
 
       const { data } = await axios.post(
-        `http://${import.meta.env.VITE_BACK_URLL}:5000/betaApp`,
+        `http://${import.meta.env.VITE_BACK_URL}:5000/betaApp`,
         betaApp
       );
       return data;
@@ -38,7 +38,8 @@ export const getmyBetaApp = createAsyncThunk("beta/myBetaApp", async () => {
     axios.defaults.withCredentials = true;
 
     const { data } = await axios.get(
-      `http://${import.meta.env.VITE_BACK_URL}:5000/betaApp/myapp`
+      "http://localhost:5000/betaApp/myapp"
+      // `http://${import.meta.env.VITE_BACK_URL}:5000/betaApp/myapp`
     );
     return data;
   } catch (error) {

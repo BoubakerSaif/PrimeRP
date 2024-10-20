@@ -10,10 +10,9 @@ export const loginUser = createAsyncThunk(
 
     try {
       const { data } = await axios.get(
-        `$http://${import.meta.env.VITE_BACK_URL}:5000/auth/user/me`
+        `http://${import.meta.env.VITE_BACK_URL}:5000/auth/user/me`
       );
       dispatch(setCredentials(data));
-      // toast.success("Logged in");
       return data;
     } catch (error) {
       toast.error(rejectWithValue(error.response.data));

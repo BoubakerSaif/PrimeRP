@@ -4,6 +4,7 @@ import User from "../Models/userModel.js";
 const loginUser = asyncHandler(async (req, res) => {
   try {
     const user = await User.findById(req?.User?._id);
+
     res.status(200).json(user);
   } catch (error) {
     throw new Error(error);

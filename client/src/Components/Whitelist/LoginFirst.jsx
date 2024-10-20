@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { FaDiscord } from "react-icons/fa";
 
 const LoginFirst = () => {
-  const DiscordLink = "http://localhost:5000/auth";
+  const DiscordLink = `http://${import.meta.env.VITE_BACK_UR}/auth`;
   return (
     <div>
       <div className="text-white flex items-start justify-around h-[400px] w-[700px] max-xl:w-[600px] mt-12 ">

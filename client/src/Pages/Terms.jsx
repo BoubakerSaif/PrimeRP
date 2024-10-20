@@ -255,43 +255,77 @@ const Terms = () => {
                 At Prime Roleplay, we strive to maintain a fair and enjoyable
                 gaming environment. To uphold these standards, the following
                 behaviours are strictly prohibited and may result in immediate
-                suspension or permanent ban from the server:
-                <span className="flex flex-col">
-                  <span className="font-medium"> Cheating:</span>
-                  Using unauthorized third-party software, bugs, or exploits to
-                  gain an unfair advantage over other players is prohibited.
-                  This includes but is not limited to, aimbots, wallhacks, and
-                  unauthorized mods.
+                suspension or permanent ban from the server
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
+                  Cheating
                 </span>
-                <span className="flex flex-col">
-                  <span className="font-medium"> Manipulation:</span>
-                  Manipulating server mechanics or exploiting game
-                  vulnerabilities to alter gameplay or gain undue benefits is
-                  not allowed.
+                Using unauthorized third-party software, bugs, or exploits to
+                gain an unfair advantage over other players is prohibited. This
+                includes but is not limited to, aimbots, wallhacks, and
+                unauthorized mods.
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
+                  Manipulation
                 </span>
-                <span className="flex flex-col">
-                  <span className="font-medium"> Impersonation:</span>
-                  Pretending to be another player, a server administrator, or
-                  any other person in a deceptive manner is forbidden.
+                Manipulating server mechanics or exploiting game vulnerabilities
+                to alter gameplay or gain undue benefits is not allowed.
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
+                  Impersonation
                 </span>
-                <span className="flex flex-col">
-                  <span className="font-medium"> Disruption:</span>
-                  Intentionally disrupting the gameplay experience for other
-                  players through griefing, trolling, or other destructive
-                  behaviours is unacceptable.
+                Pretending to be another player, a server administrator, or any
+                other person in a deceptive manner is forbidden.
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
+                  Impersonation
                 </span>
+                Pretending to be another player, a server administrator, or any
+                other person in a deceptive manner is forbidden.
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
+                  Disruption
+                </span>
+                Intentionally disrupting the gameplay experience for other
+                players through griefing, trolling, or other destructive
+                behaviours is unacceptable.
+              </p>
+            </div>
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+              <VscDebugBreakpointLog className="text-xl w-8" />
+              <p className="flex flex-col w-auto ">
+                Violations of these policies may result in actions taken against
+                your account, up to and including permanent suspension,
+                depending on the severity of the offence. We reserve the right
+                to determine what constitutes cheating and prohibited conduct
+                and to take any corrective action we deem appropriate.
+                <br />
                 We take these issues seriously and are committed to providing a
                 competitive and fair gameplay environment. If you suspect that a
                 player is cheating or engaging in prohibited conduct, please
-                report it immediately to our support team at [Your Contact
-                Information].
-                <span>
-                  Violations of these policies may result in actions taken
-                  against your account, up to and including permanent
-                  suspension, depending on the severity of the offence. We
-                  reserve the right to determine what constitutes cheating and
-                  prohibited conduct and to take any corrective action we deem
-                  appropriate.
+                report it immediately to our support team at
+                <span className="decoration-white decoration-2 underline">
+                  support@primerolelpaytn.site
                 </span>
               </p>
             </div>

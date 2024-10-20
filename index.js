@@ -21,6 +21,11 @@ app.use(cookieParser());
 app.use("/auth", userRoutes);
 app.use("/whiteApp", whiteListRoutes);
 app.use("/betaApp", closedBetaRoutes);
+
+app.get("/test", async (req, res) => {
+  res.json({ test: "tested" });
+});
+
 app.get("/auth", async (req, res) => {
   res.redirect(process.env.CLIENT_URL);
 });

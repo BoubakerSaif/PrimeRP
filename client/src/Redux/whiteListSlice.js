@@ -8,7 +8,7 @@ export const createWhiteList = createAsyncThunk(
       axios.defaults.withCredentials = true;
 
       const { data } = await axios.post(
-        `http://${import.meta.env.VITE_BACK_URL}/whiteApp`,
+        `${import.meta.env.VITE_BACK_URL}/whiteApp`,
         whiteList
       );
       return data;

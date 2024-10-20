@@ -10,7 +10,7 @@ export const loginUser = createAsyncThunk(
 
     try {
       const { data } = await axios.get(
-        `http://${import.meta.env.VITE_BACK_URL}:5000/auth/user/me`
+        `http://${import.meta.env.VITE_BACK_URL}/auth/user/me`
       );
       dispatch(setCredentials(data));
       return data;
@@ -25,7 +25,7 @@ export const logoutUser = createAsyncThunk(
   async (payload, { dispatch }) => {
     try {
       const { data } = await axios.post(
-        `http://${import.meta.env.VITE_BACK_URL}:5000/auth/logout`
+        `http://${import.meta.env.VITE_BACK_URL}/auth/logout`
       );
       dispatch(clearCredentials());
       return data;

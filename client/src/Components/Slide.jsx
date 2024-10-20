@@ -70,9 +70,12 @@ const Slide = () => {
           </div>
           <p className=" text-slate-300 flex items-center gap-2 font-Poppins mb-9  ">
             Any questions or issues? Let us help you
-            <span className="flex items-center justify-center gap-1 text-white brightness-200 underline decoration-white decoration-2 hover:cursor-pointer">
+            <span className="flex items-center justify-center gap-1 text-white brightness-200   hover:cursor-pointer">
               <IoMailOpenOutline className="text-2xl text-white mb-1  " />
               Get in touch!
+              <span className="decoration-white decoration-2 underline">
+                support@primerolelpaytn.site
+              </span>
             </span>
           </p>
         </div>

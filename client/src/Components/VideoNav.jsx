@@ -97,7 +97,6 @@ const VideoNav = () => {
             <h1>APPLY FOR CLOSED BETA</h1>
           </Link>
           <Link
-            target="_blank"
             to={"/rpguide"}
             className=" text-white brightness-90  hover:text-white hover:brightness-200 hover:shadow-white duration-300 hover:[text-shadow:0px_0px_20px_rgba(255,255,255,1)] hover:scale-105  "
           >
@@ -106,6 +105,7 @@ const VideoNav = () => {
           {/* <Link className="  text-white brightness-90  hover:text-white hover:brightness-200 hover:shadow-white duration-300 hover:[text-shadow:0px_0px_20px_rgba(255,255,255,1)] hover:scale-105   ">
             CONTACT
           </Link> */}
+
           {userInfo && userInfo?.role === "Admin" && (
             <Link
               to="/dashboard"

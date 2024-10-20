@@ -48,7 +48,7 @@ const Footer = () => {
           <p>Technical Support in Discord</p>
         </Link>
         <Link className="text-gray-400 hover:translate-x-2 duration-300 w-fit font-medium text-[10px] ">
-          <p>primeroleplayteam@gmail.com</p>
+          <p>support@primerolelpaytn.site</p>
         </Link>
       </div>
       <div className="h-[200px] w-[200px] flex flex-col  gap-2 mt-16 font-Poppins  ">

@@ -18,9 +18,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({ credentials: true, origin: process.env.CLIENT_REDIRECT_URL }));
 app.use(cookieParser());
-app.use("/auth", userRoutes);
-app.use("/whiteApp", whiteListRoutes);
-app.use("/betaApp", closedBetaRoutes);
+app.use("/api", userRoutes);
+app.use("/api", whiteListRoutes);
+app.use("/api", closedBetaRoutes);
 
 app.get("/test", async (req, res) => {
   res.json({ test: "tested" });

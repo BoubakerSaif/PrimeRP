@@ -10,11 +10,11 @@ import {
 
 const router = express.Router();
 
-router.post("/", protect, createBetaApp);
-router.get("/myapp", protect, getmyBetaApp);
-router.get("/", protect, getAllBetaApps);
-router.put("/accept/:id", protect, acceptBetaApp);
-router.put("/reject/:id", protect, rejectBetaApp);
+router.post("/betaApp", protect, createBetaApp);
+router.get("/betaApp/myapp", protect, getmyBetaApp);
+router.get("/betaApp", protect, getAllBetaApps);
+router.put("/betaApp/accept/:id", protect, acceptBetaApp);
+router.put("/betaApp/reject/:id", protect, rejectBetaApp);
 
 // router.delete("/:id", protect);
 

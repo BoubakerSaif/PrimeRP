@@ -8,7 +8,7 @@ export const createBetaApp = createAsyncThunk(
       axios.defaults.withCredentials = true;
 
       const { data } = await axios.post(
-        `${import.meta.env.VITE_BACK_URL}/betaApp`,
+        `${import.meta.env.VITE_BACK_URL}/api/betaApp`,
         betaApp
       );
       return data;
@@ -24,7 +24,7 @@ export const getAllBetaApps = createAsyncThunk(
       axios.defaults.withCredentials = true;
 
       const { data } = await axios.get(
-        `${import.meta.env.VITE_BACK_URL}/betaApp`
+        `${import.meta.env.VITE_BACK_URL}/api/betaApp`
       );
       return data;
     } catch (error) {
@@ -39,7 +39,7 @@ export const getmyBetaApp = createAsyncThunk("beta/myBetaApp", async () => {
 
     const { data } = await axios.get(
       // "localhost/betaApp/myapp"
-      `${import.meta.env.VITE_BACK_URL}/betaApp/myapp`
+      `${import.meta.env.VITE_BACK_URL}/api/betaApp/myapp`
     );
     return data;
   } catch (error) {
@@ -51,7 +51,7 @@ export const acceptBetaApp = createAsyncThunk("beta/acceptApp", async (id) => {
     axios.defaults.withCredentials = true;
 
     const { data } = await axios.put(
-      `${import.meta.env.VITE_BACK_URL}/betaApp/accept/${id}`
+      `${import.meta.env.VITE_BACK_URL}/api/betaApp/accept/${id}`
     );
     return data;
   } catch (error) {
@@ -63,7 +63,7 @@ export const rejectBetaApp = createAsyncThunk("beta/rejectApp", async (id) => {
     axios.defaults.withCredentials = true;
 
     const { data } = await axios.put(
-      `${import.meta.env.VITE_BACK_URL}/betaApp/reject/${id}`
+      `${import.meta.env.VITE_BACK_URL}/api/betaApp/reject/${id}`
     );
     return data;
   } catch (error) {

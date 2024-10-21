@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const RPGuide = () => {
   useEffect(() => {
@@ -20,10 +19,9 @@ const RPGuide = () => {
               will result in a permanent suspension from the community.
             </h2>
           </div>
-          <div className="flex  ">
+          <div className="flex justify-around  ">
             <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer ">
-                <VscDebugBreakpointLog className="text-xl w-8 " />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Logic RP
@@ -41,7 +39,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Reason RP
@@ -59,7 +56,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Mere RP
@@ -76,7 +72,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Gradation RP
@@ -92,7 +87,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Fail RP
@@ -108,7 +102,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Force RP
@@ -126,7 +119,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Interaction RP
@@ -143,7 +135,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Involvement RP
@@ -162,7 +153,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Fear RP
@@ -177,7 +167,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Assuming RP
@@ -194,7 +183,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Lore RP
@@ -209,7 +197,6 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <VscDebugBreakpointLog className="text-xl w-8" />
                 <p className="flex flex-col w-auto ">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Toxicity
@@ -225,7 +212,7 @@ const RPGuide = () => {
                 </p>
               </div>
             </div>
-            <div className=" w-full flex items-center max-xl:hidden   justify-around  ">
+            <div className=" w-[500px] flex items-center max-xl:hidden justify-around   ">
               <div className="flex flex-col gap-20">
                 <img
                   src={

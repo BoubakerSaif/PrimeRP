@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const FAQ = () => {
   return (
     <div className="relative h-full w-full flex justify-center bg-[#010101]  ">
@@ -44,11 +44,15 @@ const FAQ = () => {
           <div className="bg-[#131313] w-[450px] flex flex-col rounded-md p-4 border-[1px] border-[#3d3d3d]  font-Poppins ">
             <p className="font-semibold">Where can I find the server rules?</p>
             <p className="text-[12px] text-slate-300 ">
-              You can find a section with server rules, complaints about players
-              and other topics on this
-              <span className="underline decoration-2 decoration-white font-semibold  ">
-                {`Link`}
-              </span>
+              {`  You can find a section with server rules, complaints about players
+              and other topics on this `}
+
+              <Link
+                to={"/rpguide"}
+                className="underline decoration-2 decoration-white font-semibold  "
+              >
+                Link
+              </Link>
             </p>
           </div>
         </div>

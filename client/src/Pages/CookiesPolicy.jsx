@@ -28,7 +28,6 @@ const CookiesPolicy = () => {
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
-              <VscDebugBreakpointLog className="text-xl w-8 " />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Enhance Functionality:
@@ -39,7 +38,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Improve Performance:
@@ -49,7 +47,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Enable Services:
@@ -59,7 +56,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Personalize Experience:
@@ -69,7 +65,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Your Choices Regarding Cookies
@@ -83,7 +78,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Third-Party Tools:
@@ -93,7 +87,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Please Note:
@@ -104,7 +97,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Using Prime Roleplay
@@ -119,7 +111,6 @@ const CookiesPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Got Questions?

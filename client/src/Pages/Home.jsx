@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Slide from "../Components/Slide";
 import FAQ from "../Components/FAQ";
 import MainHero from "../Components/MainHero";
@@ -13,16 +13,12 @@ import Jobs from "../Components/Jobs";
 import MainHero_5 from "../Components/MainHero_5";
 import MainHero_7 from "../Components/MainHero_7";
 import MainHero_6 from "../Components/MainHero_6";
+import CookiesShow from "../Components/CookiesShow";
 
 const Home = () => {
-  useEffect(() => {
-    music.play();
-  }, []);
-  let music = new Audio(
-    "https://res.cloudinary.com/dl6o7cgmp/video/upload/v1729447529/Schubert_-_Ave_Maria_xtgkzw.mp3"
-  );
   return (
     <div className="relative">
+      <CookiesShow />
       <MainHero />
       <MainHero_1 />
       <MainHero_2 />

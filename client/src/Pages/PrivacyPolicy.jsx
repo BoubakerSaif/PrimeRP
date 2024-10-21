@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 
-import { VscDebugBreakpointLog } from "react-icons/vsc";
-
 const PrivacyPolicy = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -25,7 +23,6 @@ const PrivacyPolicy = () => {
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
-              <VscDebugBreakpointLog className="text-xl w-8 " />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Account Information:
@@ -35,7 +32,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Interaction Data:
@@ -45,7 +41,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Technical Details:
@@ -56,7 +51,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Communication Records:
@@ -71,7 +65,6 @@ const PrivacyPolicy = () => {
               </span>
             </h2>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Provide Our Services:
@@ -81,7 +74,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Improve and Optimize:
@@ -92,7 +84,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Communicate:
@@ -108,7 +99,6 @@ const PrivacyPolicy = () => {
             </h2>
 
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Security Measures:
@@ -118,7 +108,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Limited Access:
@@ -129,7 +118,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   No Selling:
@@ -138,7 +126,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Legal Requirements:
@@ -149,7 +136,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Access and Control:
@@ -159,7 +145,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Opt-Out:
@@ -169,7 +154,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Your Rights:
@@ -187,7 +171,6 @@ const PrivacyPolicy = () => {
             </h2>
 
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Cookies:
@@ -201,7 +184,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Underage Privacy:
@@ -215,7 +197,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Retention Period:
@@ -227,7 +208,6 @@ const PrivacyPolicy = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Updates:

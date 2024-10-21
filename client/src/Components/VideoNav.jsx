@@ -82,6 +82,7 @@ const VideoNav = () => {
             <p>: 0</p> */}
           </div>
         </div>
+
         <div className="flex justify-between gap-10  mr-48 lg:mr-0 font-medium cursor-pointer h-fit max-lg:hidden text-base mt-4 ">
           <Link
             to={"/"}
@@ -170,7 +171,6 @@ const VideoNav = () => {
               APPLY FOR CLOSED BETA
             </Link>
             <Link to={"/rpguide"} className=" rounded-lg bg-[##0e0e0f] w-fit  ">
-              {" "}
               ROLEPLAY GUIDE
             </Link>
             {/* <Link className=" rounded-lg bg-[##0e0e0f] w-fit  ">CONTACT</Link> */}

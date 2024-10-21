@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import { VscDebugBreakpointLog } from "react-icons/vsc";
 
 const Terms = () => {
   useEffect(() => {
@@ -21,7 +20,6 @@ const Terms = () => {
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
-              <VscDebugBreakpointLog className="text-xl w-8 " />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Acceptance of Terms
@@ -33,7 +31,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Age Requirement
@@ -44,7 +41,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Changes to Terms
@@ -56,7 +52,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Appropriate Use of the Server
@@ -68,7 +63,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Intellectual Property Rights
@@ -81,7 +75,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Licensing Agreement
@@ -93,7 +86,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Account Security
@@ -104,7 +96,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Service Availability and Termination
@@ -116,7 +107,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Communication Services Usage
@@ -127,7 +117,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Monitoring and Fair Play
@@ -138,7 +127,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Financial Transactions
@@ -148,7 +136,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Dispute Resolution
@@ -160,7 +147,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Device and Internet Requirements
@@ -172,7 +158,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Third-Party Links
@@ -183,7 +168,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Disclaimer and Limitation of Liability
@@ -194,7 +178,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Priority Access and Server Queues
@@ -205,7 +188,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Application for Primary Server Access
@@ -216,7 +198,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Priority Access and Server Queues
@@ -227,7 +208,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Contact Us
@@ -237,7 +217,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Miscellaneous
@@ -247,7 +226,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-14" />
               <p className="flex flex-col w-auto leading-6  ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Prohibited Conduct and Cheating
@@ -259,7 +237,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Cheating
@@ -271,7 +248,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Manipulation
@@ -281,7 +257,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Impersonation
@@ -291,7 +266,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Impersonation
@@ -301,7 +275,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Disruption
@@ -312,7 +285,6 @@ const Terms = () => {
               </p>
             </div>
             <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
-              <VscDebugBreakpointLog className="text-xl w-8" />
               <p className="flex flex-col w-auto ">
                 Violations of these policies may result in actions taken against
                 your account, up to and including permanent suspension,

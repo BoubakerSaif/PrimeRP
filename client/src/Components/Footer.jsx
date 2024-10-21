@@ -5,6 +5,8 @@ import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { FaTiktok } from "react-icons/fa";
 const Footer = () => {
+  const DiscordInvite = "https://discord.com/invite/UJEgUBMBT8";
+
   return (
     <div className="   bg-[#010101]  max-xl:h-screen max-xl:flex-wrap lg:flex-nowrap lg:h-[300px]  text-white  flex justify-center gap-2 items-center  ">
       <div className="h-[200px] w-[280px] flex flex-col mt-10 gap-2 font-Poppins   ">
@@ -44,7 +46,11 @@ const Footer = () => {
         <p className="text-white font-Poppins text-sm font-semibold underline decoration-1 decoration-white underline-offset-2">
           Need Help ?
         </p>
-        <Link className="text-gray-400 hover:translate-x-2 text-sm font-medium duration-300 w-fit">
+        <Link
+          target="_blank"
+          to={DiscordInvite}
+          className="text-gray-400 hover:translate-x-2 text-sm font-medium duration-300 w-fit"
+        >
           <p>Technical Support in Discord</p>
         </Link>
         <Link className="text-gray-400 hover:translate-x-2 duration-300 w-fit font-medium text-[10px] ">

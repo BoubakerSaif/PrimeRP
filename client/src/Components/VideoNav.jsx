@@ -9,6 +9,7 @@ import { IoMdArrowDropup } from "react-icons/io";
 import "./Border.css";
 import { getmyBetaApp } from "../Redux/betaAppSlice";
 import { LuServerOff } from "react-icons/lu";
+import Button from "./Button";
 
 const VideoNav = () => {
   const dispatch = useDispatch();
@@ -16,6 +17,20 @@ const VideoNav = () => {
     e.preventDefault();
     dispatch(logoutUser());
   };
+  const music = new Audio(
+    "https://res.cloudinary.com/dl6o7cgmp/video/upload/v1729447529/Schubert_-_Ave_Maria_xtgkzw.mp3"
+  );
+
+  const playIt = () => {
+    music.play();
+  };
+  const stopIt = () => {
+    music.pause();
+  };
+
+  useEffect(() => {
+    playIt();
+  }, []);
 
   const DiscordLink = `${import.meta.env.VITE_BACK_URL}/auth`;
   const { myBetaApp, createdBetaApp, rejectedApp, acceptedApp } = useSelector(
@@ -178,18 +193,21 @@ const VideoNav = () => {
         )}
       </div>
       {location.pathname == "/" && (
-        <Link
-          target="_blank"
-          to="https://youtu.be/sk9slehg6Rc?si=qP6i1yfv5_2QqB6Q "
-          className={`${
-            location.pathname == "/rpguide" ? "hidden" : ""
-          } group absolute top-[60%] max-lg:top-[80%] flex items-center justify-around py-2 max-lg:w-40 w-60 rounded-full cursor-pointer group-hover:brightness-150 border-[#3d3d3d] border-2  hover:bg-white hover:shadow-[0px_0px_50px] hover:shadow-white   `}
-        >
-          <FaPlayCircle className="text-5xl  text-white sm:text-3xl group-hover:text-black " />
-          <button className="text-white font-Poppins font-bold text-xl  group-hover:text-black max-lg:text-sm   ">
-            Watch Trailer
-          </button>
-        </Link>
+        <div className="absolute top-[60%] max-lg:top-[80%] flex flex-col items-center gap-4">
+          <Link
+            target="_blank"
+            to="https://youtu.be/sk9slehg6Rc?si=qP6i1yfv5_2QqB6Q "
+            className={`${
+              location.pathname == "/rpguide" ? "hidden" : ""
+            } group  flex items-center justify-around py-2 max-lg:w-40 w-60 rounded-full cursor-pointer group-hover:brightness-150 border-[#3d3d3d] border-2  hover:bg-white hover:shadow-[0px_0px_50px] hover:shadow-white   `}
+          >
+            <FaPlayCircle className="text-5xl  text-white sm:text-3xl group-hover:text-black " />
+            <button className="text-white font-Poppins font-bold text-xl  group-hover:text-black max-lg:text-sm   ">
+              Watch Trailer
+            </button>
+          </Link>
+          <Button playIt={playIt} stopIt={stopIt} />
+        </div>
       )}
     </div>
   );

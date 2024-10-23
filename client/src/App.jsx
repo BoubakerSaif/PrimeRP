@@ -14,22 +14,10 @@ const App = () => {
   useEffect(() => {
     dispatch(loginUser());
   }, []);
-  const music = new Audio(
-    "https://res.cloudinary.com/dl6o7cgmp/video/upload/v1729447529/Schubert_-_Ave_Maria_xtgkzw.mp3"
-  );
-  useEffect(() => {
-    playIt();
-  }, []);
-  const playIt = () => {
-    music.play();
-  };
-  const stopIt = () => {
-    music.pause();
-  };
+
   return (
     <div>
       <ToastContainer />
-      <Button stopIt={stopIt} playIt={playIt} />
       <VideoNav />
       <Outlet />
       <Footer />

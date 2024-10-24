@@ -233,6 +233,9 @@ const BetaApps = () => {
               onClick={() => setActiveTab("Accepted")}
             >
               Accepted
+              {` (${
+                betaApps?.filter((el) => el.status === "Accepted").length
+              })`}
             </button>
             <button
               className={`flex-1 py-2 rounded ${
@@ -243,6 +246,7 @@ const BetaApps = () => {
               onClick={() => setActiveTab("Pending")}
             >
               Pending
+              {` (${betaApps?.filter((el) => el.status === "Pending").length})`}
             </button>
             <button
               className={`flex-1 py-2 rounded ${
@@ -253,6 +257,9 @@ const BetaApps = () => {
               onClick={() => setActiveTab("Rejected")}
             >
               Rejected
+              {` (${
+                betaApps?.filter((el) => el.status === "Rejected").length
+              })`}
             </button>
           </div>
 

@@ -6,7 +6,6 @@ import { useNavigate } from "react-router-dom";
 const Beta = ({ setStep }) => {
   const [betaApp, setBetaApp] = useState({
     name: "",
-    discordId: "",
     age: "",
     prevRpExp: "",
     charEth: "",
@@ -24,19 +23,24 @@ const Beta = ({ setStep }) => {
     e.preventDefault();
     if (!betaApp.name.match(/[a-z]/gi) || betaApp.name.length < 3) {
       toast.warn("Name is not valid", { theme: "dark" });
-    } else if (!betaApp.discordId.match(/[a-z]#[0-9]/gi)) {
-      toast.warn("DiscordId is not valid", { theme: "dark" });
     } else if (!betaApp.age.match(/[0-9]/gi) || betaApp.age.length < 2) {
       toast.warn("Age is not valid", { theme: "dark" });
-    } else if (betaApp.prevRpExp.length < 150) {
-      toast.warn("Previus Roleplay Experience must be a least 150 letters ", {
+    } else if (betaApp.prevRpExp.split(" ").length < 60) {
+      toast.warn("Previus Roleplay Experience must be a least 60 words ", {
         theme: "dark",
       });
-      s;
+    } else if (betaApp.prevRpExp.split(" ").length > 200) {
+      toast.warn("Previus Roleplay Experience must under 200 words ", {
+        theme: "dark",
+      });
     } else if (!betaApp.charEth.match(/[a-z]/gi)) {
       toast.warn("Character Ethnicity is not valid", { theme: "dark" });
-    } else if (betaApp.charBack.length < 150) {
-      toast.warn("Character background must be a least 150 letters", {
+    } else if (betaApp.charBack.split(" ").length < 150) {
+      toast.warn("Character background must be a least 150 words", {
+        theme: "dark",
+      });
+    } else if (betaApp.charBack.split(" ").length > 350) {
+      toast.warn("Character background must be under 350 words", {
         theme: "dark",
       });
     } else if (!betaApp.liveEmail.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
@@ -80,19 +84,6 @@ const Beta = ({ setStep }) => {
           <p class="mt-2 hidden [.validated_&]:peer-invalid:block text-pink-600">
             Please provide your first name.
           </p>
-        </div>
-        <div className="flex flex-col gap-2 ">
-          <label className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold hover:text-black hover:bg-white hover:cursor-pointer">
-            Discord ID
-          </label>
-          <input
-            onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
-            type="text"
-            placeholder="e.g., username#1234"
-            name="discordId"
-            value={betaApp.discordId}
-          />
         </div>
         <div className="flex flex-col gap-2 ">
           <label className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold hover:text-black hover:bg-white hover:cursor-pointer">
@@ -180,7 +171,7 @@ const Beta = ({ setStep }) => {
             onChange={onChangeHandler}
             className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
             type="text"
-            placeholder="Streaming Channel Link"
+            placeholder="Steam Profile Link"
             name="steamProfile"
             value={betaApp.steamProfile}
           />

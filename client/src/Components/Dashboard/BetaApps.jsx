@@ -144,7 +144,7 @@ const BetaApps = () => {
               </button>
               <h2 className="text-xl font-bold mb-4">Additional Details</h2>
               {selectedEntry && (
-                <div>
+                <div className="h-[500px] overflow-auto ">
                   <p className="mb-2 flex flex-col">
                     <strong>Status:</strong> {selectedEntry.status}
                   </p>

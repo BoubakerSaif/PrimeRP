@@ -5,7 +5,6 @@ import nodemailer from "nodemailer";
 const createBetaApp = asyncHandler(async (req, res) => {
   const {
     name,
-    discordId,
     age,
     prevRpExp,
     charEth,
@@ -18,7 +17,6 @@ const createBetaApp = asyncHandler(async (req, res) => {
   try {
     const betaApp = await closedBeta.create({
       name,
-      discordId,
       age,
       prevRpExp,
       charEth,

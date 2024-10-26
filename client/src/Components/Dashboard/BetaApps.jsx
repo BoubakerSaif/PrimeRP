@@ -78,6 +78,7 @@ const BetaApps = () => {
 
   // Render a table for the provided data
   const renderTable = (data) => {
+    console.log(data);
     return (
       <>
         <table className="min-w-full bg-gray-800 text-gray-200 rounded-lg overflow-hidden shadow-lg">
@@ -98,7 +99,7 @@ const BetaApps = () => {
                 className="hover:bg-gray-700 transition-colors"
               >
                 <td className="py-3 px-6">{item.number}</td>
-                <td className="py-3 px-6">{item.discordId}</td>
+                <td className="py-3 px-6">{item.createdBy?.discord_id}</td>
                 <td className="py-3 px-6">{item.age}</td>
                 <td className="py-3 px-6">{item.name}</td>
                 <td className="py-3 px-6">

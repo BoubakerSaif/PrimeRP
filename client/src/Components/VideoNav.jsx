@@ -72,7 +72,7 @@ const VideoNav = () => {
             <div className="lg:hidden max-lg:block max-lg:mt-1">
               {show && (
                 <IoMdArrowDropup
-                  className="w-fit text-3xl max-sm:text-xl hover:border-2 hover:cursor-pointer rounded-md mt-1 max-sm:mt-3"
+                  className="w-fit text-3xl max-sm:text-xl hover:border-2 hover:cursor-pointer rounded-md mt-1 max-sm:mt-[10px] "
                   onClick={() => {
                     setShow(!show);
                   }}
@@ -80,7 +80,7 @@ const VideoNav = () => {
               )}
               {show == false && (
                 <FaBars
-                  className="w-fit text-3xl max-sm:text-xl  hover:border-2 hover:cursor-pointer rounded-md mt-1 max-sm:mt-3"
+                  className="w-fit text-3xl max-sm:text-lg  hover:border-2 hover:cursor-pointer rounded-md mt-1 max-sm:mt-[10px]  "
                   onClick={() => {
                     setShow(!show);
                   }}
@@ -88,7 +88,7 @@ const VideoNav = () => {
               )}
             </div>
             <Link to={"/"} className="group lg:hover:scale-125 duration-500  ">
-              <span className="text-white text-5xl max-sm:text-xl group-hover:[text-shadow:0px_0px_40px_rgba(255,255,255,1)] group-hover:brightness-200 ">
+              <span className="text-white text-5xl max-sm:text-3xl group-hover:[text-shadow:0px_0px_40px_rgba(255,255,255,1)] group-hover:brightness-200 ">
                 P
               </span>
               <span className="group-hover:[text-shadow:0px_0px_40px_rgba(255,255,255,1)] text-4xl max-sm:text-lg group-hover:brightness-200">

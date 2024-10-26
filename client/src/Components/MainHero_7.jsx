@@ -27,7 +27,7 @@ const MainHero_7 = () => {
       </motion.div>
       <div className="flex flex-col -mt-48 max-sm:-mt-32  gap-20  font-Poppins  ">
         <motion.p
-          className="text-white text-4xl font-semibold max-sm:text-2xl "
+          className="text-white text-4xl font-semibold max-sm:text-2xl max-sm:px-4 "
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeInOut" }}

@@ -12,7 +12,7 @@ const Businesses = () => {
         <p className="font-bold text-4xl max-lg:text-2xl max-sm:mt-20">
           BUSINESSES
         </p>
-        <p className="text-2xl mt-1 max-lg:text-xl max-sm:text-xs max-sm:mt-6">
+        <p className="text-2xl mt-1 max-lg:text-xl max-sm:text-sm max-sm:px-4 max-sm:mt-6">
           Dive into dozens of active and new businesses, strive in a high
           competitive atmoshpere
         </p>

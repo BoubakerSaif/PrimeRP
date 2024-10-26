@@ -17,7 +17,7 @@ const Experience = () => {
         whileInView={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
       >
-        <p className=" uppercase  text-6xl max-sm:text-sm max-md:text-xl max-lg:text-3xl max-sm:mb-60">
+        <p className=" uppercase  text-6xl  max-sm:px-3 max-md:text-xl max-lg:text-3xl max-sm:mb-60">
           We give our players a unique world of factions,businesses and jobs
         </p>
       </motion.div>

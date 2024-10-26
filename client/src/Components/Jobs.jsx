@@ -10,7 +10,7 @@ const Jobs = () => {
         transition={{ delay: 0.3, duration: 0.8, ease: "easeInOut" }}
       >
         <p className="font-bold text-4xl max-lg:text-2xl max-sm:mt-20 ">JOBS</p>
-        <p className="text-2xl mt-1 max-lg:text-xl max-sm:text-xs max-sm:mt-8">
+        <p className="text-2xl mt-1 max-lg:text-xl max-sm:text-sm max-sm:mt-8  ">
           Easy job, Easy money
         </p>
       </motion.div>

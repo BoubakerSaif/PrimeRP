@@ -56,7 +56,7 @@ const How = () => {
   return (
     <div>
       <main className="bg-[#010101] flex items-center text-white font-Poppins flex-col gap-12">
-        <div className="flex h-fit gap-16 mt-8">
+        <div className="flex h-fit gap-16 mt-8 max-sm:gap-6">
           <div
             onClick={() => {
               setStep("step1");
@@ -69,7 +69,7 @@ const How = () => {
                 step == "step1" ? "bg-white text-black  " : ""
               } `}
             />
-            <p className="text-sm font-semibold">Step 1</p>
+            <p className="text-sm font-semibold max-sm:text-xs">Step 1</p>
           </div>
           <div
             onClick={() => {
@@ -83,7 +83,7 @@ const How = () => {
                 step == "step2" ? "bg-white text-black " : ""
               } `}
             />
-            <p className="text-sm font-semibold">Step 2</p>
+            <p className="text-sm font-semibold max-sm:text-xs">Step 2</p>
           </div>
           <div
             onClick={() => {
@@ -97,7 +97,7 @@ const How = () => {
                 step == "step3" ? "bg-white text-black " : ""
               } `}
             />
-            <p className="text-sm font-semibold">Step 3</p>
+            <p className="text-sm font-semibold max-sm:text-xs">Step 3</p>
           </div>
           {step == "step4" && (
             <div
@@ -112,7 +112,7 @@ const How = () => {
                   step == "step4" ? "bg-white text-black " : ""
                 } `}
               />
-              <p className="text-sm font-semibold">Step 4</p>
+              <p className="text-sm font-semibold max-sm:text-xs">Step 4</p>
             </div>
           )}
 
@@ -128,7 +128,7 @@ const How = () => {
                   step == "step5" ? "bg-white text-black " : ""
                 } `}
               />
-              <p className="text-sm font-semibold">Step 5</p>
+              <p className="text-sm font-semibold max-sm:text-xs">Step 5</p>
             </div>
           )}
         </div>

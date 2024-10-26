@@ -27,23 +27,35 @@ const Beta = ({ setStep }) => {
     } else if (!betaApp.age.match(/[0-9]/gi) || betaApp.age.length < 2) {
       toast.warn("Age is not valid", { theme: "dark" });
     } else if (betaApp.prevRpExp.split(" ").length < 60) {
-      toast.warn("Previous Roleplay Experience must be a least 60 words ", {
-        theme: "dark",
-      });
+      toast.warn(
+        "Previous Roleplay Experience is too short, it must be a least 60 words ",
+        {
+          theme: "dark",
+        }
+      );
     } else if (betaApp.prevRpExp.split(" ").length > 200) {
-      toast.warn("Previous Roleplay Experience must under 200 words ", {
-        theme: "dark",
-      });
+      toast.warn(
+        "Previous Roleplay Experience is too long, it must be under 200 words ",
+        {
+          theme: "dark",
+        }
+      );
     } else if (!betaApp.charEth.match(/[a-z]/gi)) {
       toast.warn("Character Ethnicity is not valid", { theme: "dark" });
     } else if (betaApp.charBack.split(" ").length < 150) {
-      toast.warn("Character background must be a least 150 words", {
-        theme: "dark",
-      });
+      toast.warn(
+        "Character background is too short, it must be a least 150 words",
+        {
+          theme: "dark",
+        }
+      );
     } else if (betaApp.charBack.split(" ").length > 350) {
-      toast.warn("Character background must be under 350 words", {
-        theme: "dark",
-      });
+      toast.warn(
+        "Character background is too long, it must be under 350 words",
+        {
+          theme: "dark",
+        }
+      );
     } else if (!betaApp.liveEmail.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
       toast.warn("Email is not valid", {
         theme: "dark",
@@ -60,21 +72,21 @@ const Beta = ({ setStep }) => {
     }
   };
   return (
-    <div className=" max-lg:w-[640px]  w-[900px] ">
-      <h1 className="text-center text-2xl font-Poppins text-black font-semibold bg-white w-fit mx-auto px-4 py-1 rounded-md  hover:text-white hover:bg-[#131313] hover:cursor-pointer">
+    <div className=" max-lg:w-[640px]  w-[900px] max-sm:w-[300px] ">
+      <h1 className="text-center text-2xl font-Poppins text-black font-semibold bg-white w-fit mx-auto px-4 py-1 rounded-md  hover:text-white hover:bg-[#131313] hover:cursor-pointer max-sm:text-xl">
         Closed Beta Application
       </h1>
       <form
         id="form"
         className="flex flex-col h-full gap-6 font-Poppins mt-3   "
       >
-        <div className="flex flex-col gap-2 ">
+        <div className="flex flex-col gap-2 max-sm:mt-2 ">
           <label className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold hover:text-black hover:bg-white hover:cursor-pointer ">
             Name
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2    "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]   "
             type="text"
             placeholder="What is your real name"
             name="name"
@@ -88,7 +100,7 @@ const Beta = ({ setStep }) => {
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]"
             type="text"
             placeholder="Must be 18+ to apply"
             name="age"
@@ -102,7 +114,7 @@ const Beta = ({ setStep }) => {
           </label>
           <textarea
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-60 max-lg:w-[640px] px-2  "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-60 max-lg:w-[640px] px-2  max-sm:w-[300px] "
             placeholder="Briefly describe your previous experience in roleplay servers or communities"
             name="prevRpExp"
             value={betaApp.prevRpExp}
@@ -114,7 +126,7 @@ const Beta = ({ setStep }) => {
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]"
             type="text"
             placeholder="Ex: Amerian, Mexican,Arabian etc.."
             name="charEth"
@@ -127,7 +139,7 @@ const Beta = ({ setStep }) => {
           </label>
           <textarea
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-60 max-lg:w-[640px] px-2  "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-60 max-lg:w-[640px] px-2  max-sm:w-[300px] "
             placeholder="Briefly describe your Character"
             name="charBack"
             value={betaApp.charBack}
@@ -139,7 +151,7 @@ const Beta = ({ setStep }) => {
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]"
             type="email"
             placeholder="Type your email here"
             name="liveEmail"
@@ -153,7 +165,7 @@ const Beta = ({ setStep }) => {
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]"
             type="text"
             placeholder="Streaming Channel Link"
             name="streamLink"
@@ -166,26 +178,27 @@ const Beta = ({ setStep }) => {
           </label>
           <input
             onChange={onChangeHandler}
-            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2 "
+            className="bg-[#010101] border-[#3d3d3d] border-[1px] rounded-md h-9 text-sm max-lg:w-[640px] px-2  max-sm:w-[300px]"
             type="text"
             placeholder="Steam Profile Link"
             name="steamProfile"
             value={betaApp.steamProfile}
           />
         </div>
-        <div className="flex justify-end max-lg:w-[600px] ">
+        <div className="flex justify-end max-lg:w-[600px] max-sm:w-[300px] max-sm:justify-center ">
           <div className=" w-fit flex gap-2">
             <button
               onClick={() => {
                 setStep("step3");
+                window.scroll(0, 0);
               }}
-              className="text-center  font-Poppins font-semibold bg-[#131313] text-white w-fit mx-auto px-2 py-1 rounded-md  hover:cursor-pointer"
+              className="text-center  font-Poppins font-semibold bg-[#131313] text-white w-fit mx-auto px-2  max-sm:w-[300px]py-1 rounded-md  hover:cursor-pointer"
             >
               Cancel
             </button>
             <button
               onClick={confirmbetaApp}
-              className="text-center  font-Poppins font-semibold  bg-white text-black  w-fit mx-auto px-5 py-1 rounded-md  hover:text-white hover:bg-[#131313] hover:cursor-pointer"
+              className="text-center  font-Poppins font-semibold  bg-white text-black  w-fit mx-auto px-5 py-1 rounded-md  hover:text-white hover:bg-[#131313] hover:cursor-pointer max-sm:px-2"
             >
               Confirm Application
             </button>

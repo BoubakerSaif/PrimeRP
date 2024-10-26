@@ -12,7 +12,7 @@ const RPGuide = () => {
             <h1 className="text-3xl font-semibold mt-12">
               PRIME ROLEPLAY GUIDELINES
             </h1>
-            <h2 className="text-lg lg:w-[800px] mx-auto  ">
+            <h2 className="text-lg lg:w-[800px] mx-auto max-sm:text-base max-sm:px-3 ">
               Welcome to Prime Roleplay! We’re thrilled to have you here! To
               make sure everyone has a great time, reading the community
               guidelines and following them is mandatory, violating these terms
@@ -22,7 +22,7 @@ const RPGuide = () => {
           <div className="flex justify-around  ">
             <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer ">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Logic RP
                   </span>
@@ -39,7 +39,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Reason RP
                   </span>
@@ -56,7 +56,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Mere RP
                   </span>
@@ -72,7 +72,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Gradation RP
                   </span>
@@ -87,7 +87,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Fail RP
                   </span>
@@ -102,7 +102,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Force RP
                   </span>
@@ -119,7 +119,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Interaction RP
                   </span>
@@ -135,7 +135,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Involvement RP
                   </span>
@@ -153,7 +153,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Fear RP
                   </span>
@@ -167,7 +167,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Assuming RP
                   </span>
@@ -183,7 +183,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Lore RP
                   </span>
@@ -197,7 +197,7 @@ const RPGuide = () => {
                 </p>
               </div>
               <div className="flex items-center  lg:w-[1000px] group hover:cursor-pointer">
-                <p className="flex flex-col w-auto ">
+                <p className="flex flex-col w-auto  px-3">
                   <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                     Toxicity
                   </span>

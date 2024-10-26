@@ -11,7 +11,7 @@ const PrivacyPolicy = () => {
           <h1 className="text-3xl font-semibold mt-12">
             Greetings from the Prime Roleplay Privacy Team!
           </h1>
-          <h2 className="text-lg lg:w-[1000px] mx-auto flex flex-col  ">
+          <h2 className="text-lg lg:w-[1000px] mx-auto flex flex-col max-sm:text-base max-sm:px-3  ">
             We’re really glad you’ve chosen to join the Prime Roleplay
             community. We understand that privacy is a big deal, and we’re
             committed to protecting you. This Privacy Policy explains what
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
         </div>
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3 ">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Account Information:
@@ -31,7 +31,7 @@ const PrivacyPolicy = () => {
                 and email address.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Interaction Data:
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
                 within the game.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Technical Details:
@@ -50,7 +50,7 @@ const PrivacyPolicy = () => {
                 experience.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Communication Records:
@@ -64,7 +64,7 @@ const PrivacyPolicy = () => {
                 What Information Do We Collect?
               </span>
             </h2>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Provide Our Services:
@@ -73,7 +73,7 @@ const PrivacyPolicy = () => {
                 your preferences, and keep your data secure.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Improve and Optimize:
@@ -83,7 +83,7 @@ const PrivacyPolicy = () => {
                 needs.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Communicate:
@@ -98,7 +98,7 @@ const PrivacyPolicy = () => {
               </span>
             </h2>
 
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Security Measures:
@@ -107,7 +107,7 @@ const PrivacyPolicy = () => {
                 from unauthorized access, alteration, or destruction.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Limited Access:
@@ -117,7 +117,7 @@ const PrivacyPolicy = () => {
                 We Share Your Information?
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   No Selling:
@@ -125,7 +125,7 @@ const PrivacyPolicy = () => {
                 We do not sell your personal information to third parties.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Legal Requirements:
@@ -135,7 +135,7 @@ const PrivacyPolicy = () => {
                 safety. Your Choices and Rights
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Access and Control:
@@ -144,7 +144,7 @@ const PrivacyPolicy = () => {
                 into your account.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Opt-Out:
@@ -153,7 +153,7 @@ const PrivacyPolicy = () => {
                 following the unsubscribe link included in these emails.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Your Rights:
@@ -170,7 +170,7 @@ const PrivacyPolicy = () => {
               </span>
             </h2>
 
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Cookies:
@@ -183,7 +183,7 @@ const PrivacyPolicy = () => {
                 third-party services. Information From Children
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Underage Privacy:
@@ -196,7 +196,7 @@ const PrivacyPolicy = () => {
                 Keep Your Information?
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Retention Period:
@@ -207,7 +207,7 @@ const PrivacyPolicy = () => {
                 information, please contact us. Changes to This Policy
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Updates:

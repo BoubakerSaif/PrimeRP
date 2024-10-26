@@ -11,7 +11,7 @@ const Terms = () => {
           <h1 className="text-3xl font-semibold mt-12">
             Welcome to Prime Roleplay!
           </h1>
-          <h2 className="text-lg lg:w-[800px] mx-auto  ">
+          <h2 className="text-lg lg:w-[800px] mx-auto max-sm:text-base max-sm:px-3   ">
             We're excited to have you join our vibrant community. These Terms of
             Service ensure a safe, fair, and enjoyable experience for everyone.
             Please take a moment to read them thoroughly.
@@ -19,7 +19,7 @@ const Terms = () => {
         </div>
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3 ">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Acceptance of Terms
@@ -30,7 +30,7 @@ const Terms = () => {
                 our services.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Age Requirement
@@ -40,7 +40,7 @@ const Terms = () => {
                 are appropriate and mature.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Changes to Terms
@@ -51,7 +51,7 @@ const Terms = () => {
                 revised terms.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Appropriate Use of the Server
@@ -62,7 +62,7 @@ const Terms = () => {
                 responsibly.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Intellectual Property Rights
@@ -74,7 +74,7 @@ const Terms = () => {
                 permitted under these terms.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Licensing Agreement
@@ -85,7 +85,7 @@ const Terms = () => {
                 resale or commercial use of our services or its contents.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Account Security
@@ -95,7 +95,7 @@ const Terms = () => {
                 Ensure your password is strong and kept secure.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Service Availability and Termination
@@ -106,7 +106,7 @@ const Terms = () => {
                 discretion.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Communication Services Usage
@@ -116,7 +116,7 @@ const Terms = () => {
                 communication is not tolerated.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Monitoring and Fair Play
@@ -126,7 +126,7 @@ const Terms = () => {
                 communications to enforce these principles.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Financial Transactions
@@ -135,7 +135,7 @@ const Terms = () => {
                 purchase decisions are final before submission.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Dispute Resolution
@@ -146,7 +146,7 @@ const Terms = () => {
                 issues before escalating to legal action.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Device and Internet Requirements
@@ -157,7 +157,7 @@ const Terms = () => {
                 responsible for any issue caused by any security problem.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Third-Party Links
@@ -167,7 +167,7 @@ const Terms = () => {
                 content or practices.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Disclaimer and Limitation of Liability
@@ -177,7 +177,7 @@ const Terms = () => {
                 incidental damages related to your use of the service.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Priority Access and Server Queues
@@ -187,7 +187,7 @@ const Terms = () => {
                 free.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Application for Primary Server Access
@@ -197,7 +197,7 @@ const Terms = () => {
                 interview does not guarantee access.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Priority Access and Server Queues
@@ -207,7 +207,7 @@ const Terms = () => {
                 free.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Contact Us
@@ -216,7 +216,7 @@ const Terms = () => {
                 please reach out to us at -------.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Miscellaneous
@@ -225,7 +225,7 @@ const Terms = () => {
                 Roleplay regarding your use of our services.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto leading-6  ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Prohibited Conduct and Cheating
@@ -236,7 +236,7 @@ const Terms = () => {
                 suspension or permanent ban from the server
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Cheating
@@ -247,7 +247,7 @@ const Terms = () => {
                 unauthorized mods.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Manipulation
@@ -256,7 +256,7 @@ const Terms = () => {
                 to alter gameplay or gain undue benefits is not allowed.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Impersonation
@@ -265,7 +265,7 @@ const Terms = () => {
                 other person in a deceptive manner is forbidden.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Impersonation
@@ -274,7 +274,7 @@ const Terms = () => {
                 other person in a deceptive manner is forbidden.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Disruption
@@ -284,7 +284,7 @@ const Terms = () => {
                 behaviours is unacceptable.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 Violations of these policies may result in actions taken against
                 your account, up to and including permanent suspension,

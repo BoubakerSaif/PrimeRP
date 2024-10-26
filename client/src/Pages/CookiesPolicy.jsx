@@ -12,7 +12,7 @@ const CookiesPolicy = () => {
           <h1 className="text-3xl font-semibold mt-12">
             Welcome to Prime Roleplay!
           </h1>
-          <h2 className="text-lg lg:w-[950px] mx-auto flex flex-col  ">
+          <h2 className="text-lg lg:w-[950px] mx-auto flex flex-col max-sm:text-base max-sm:px-3  ">
             At Prime Roleplay, we use cookies to make your gaming experience
             smoother and more personalized. Here’s a quick rundown of what
             cookies are, how we use them, and your choices regarding cookies.
@@ -27,7 +27,7 @@ const CookiesPolicy = () => {
         </div>
         <div className="flex justify-center ">
           <div className=" flex flex-col  gap-4 w-fit  text-sm     ">
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer ">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3 ">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Enhance Functionality:
@@ -37,7 +37,7 @@ const CookiesPolicy = () => {
                 every time you visit.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Improve Performance:
@@ -46,7 +46,7 @@ const CookiesPolicy = () => {
                 bugs and improve performance.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Enable Services:
@@ -55,7 +55,7 @@ const CookiesPolicy = () => {
                 properly.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   To Personalize Experience:
@@ -64,7 +64,7 @@ const CookiesPolicy = () => {
                 match your interests.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Your Choices Regarding Cookies
@@ -77,7 +77,7 @@ const CookiesPolicy = () => {
                 change your cookie preferences.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Third-Party Tools:
@@ -86,7 +86,7 @@ const CookiesPolicy = () => {
                 tracking technologies.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Please Note:
@@ -96,7 +96,7 @@ const CookiesPolicy = () => {
                 tracking described here will stop. Consent
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Using Prime Roleplay
@@ -110,15 +110,15 @@ const CookiesPolicy = () => {
                 policy.
               </p>
             </div>
-            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer">
+            <div className="flex items-center lg:w-[1000px]   group hover:cursor-pointer max-sm:px-3">
               <p className="flex flex-col w-auto ">
                 <span className="bg-[#131313] px-4 py-1 w-fit rounded-md font-semibold group-hover:text-black group-hover:bg-white ">
                   Got Questions?
                 </span>
                 If you have any questions about our use of cookies, please get
-                in touch with us at ------. We hope this policy helps you
-                understand how we use cookies to make our service better for
-                you. Enjoy your time around Prime Roleplay!
+                in touch with us at support@primerolelpaytn.site. We hope this
+                policy helps you understand how we use cookies to make our
+                service better for you. Enjoy your time around Prime Roleplay!
               </p>
             </div>
           </div>

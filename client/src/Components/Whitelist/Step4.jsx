@@ -3,15 +3,15 @@ import { Link } from "react-router-dom";
 
 const Step4 = ({ setStep, setCat }) => {
   return (
-    <div className="text-white flex items-start justify-around  h-[400px] w-full  max-xl:w-[600px] mt-12 ">
-      <div className=" flex items-center justify-center w-full   ">
+    <div className="text-white flex items-start justify-around  h-[400px] w-full  max-xl:w-[600px] mt-12 max-sm:w-[300px] max-sm:h-auto  ">
+      <div className=" flex items-center justify-center w-full max-sm:flex-col max-sm:gap-8  ">
         <img
           src={
             "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729259777/white_epcawp.png"
           }
           className="w-36 h-32 "
         />
-        <div className="flex flex-col justify-around gap-3 w-96 ">
+        <div className="flex flex-col justify-around gap-3 w-96  max-sm:w-[300px]">
           <h1 className="font-bold text-2xl  ">Rules</h1>
           <p className="text-[14px]">
             I hereby acknowledge that I have read and accept the
@@ -35,19 +35,19 @@ const Step4 = ({ setStep, setCat }) => {
           <p className="text-[14px]">
             I confirm that I am prepared to complete the application process.
           </p>
-          <div className="flex gap-8 font-semibold  ">
+          <div className="flex gap-8 font-semibold max-sm:mt-4  ">
             <button
               onClick={() => {
                 setCat("cat1");
                 setStep("step5");
               }}
-              className="bg-white text-black px-4 py-2 rounded-lg hover:bg-[#1d1d1d] hover:text-white"
+              className="bg-white text-black px-4 py-2 rounded-lg hover:bg-[#1d1d1d] hover:text-white max-sm:text-sm"
             >
               Accept Rules
             </button>
             <Link
               to={"/"}
-              className=" px-6 py-2 rounded-lg border-[1px] border-[#3d3d3d] hover:bg-[#1d1d1d] "
+              className=" px-6 py-2 rounded-lg border-[1px] border-[#3d3d3d] hover:bg-[#1d1d1d] max-sm:text-sm "
             >
               Do it later
             </Link>

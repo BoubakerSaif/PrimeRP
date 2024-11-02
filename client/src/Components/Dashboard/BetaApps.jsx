@@ -12,6 +12,7 @@ const BetaApps = () => {
   const { betaApps, acceptedApp, rejectedApp } = useSelector(
     (state) => state.beta
   );
+  const [search, setSearch] = useState("");
   useEffect(() => {
     dispatch(getAllBetaApps());
   }, [acceptedApp, rejectedApp]);
@@ -78,7 +79,6 @@ const BetaApps = () => {
 
   // Render a table for the provided data
   const renderTable = (data) => {
-    console.log(data);
     return (
       <>
         <table className="min-w-full bg-gray-800 text-gray-200 rounded-lg overflow-hidden shadow-lg">
@@ -262,15 +262,44 @@ const BetaApps = () => {
                 betaApps?.filter((el) => el.status === "Rejected").length
               })`}
             </button>
+            <div className="flex-1 flex items-center gap-2">
+              <label className="font-Poppins ">Discord_Id:</label>
+              <input
+                onChange={(e) => {
+                  setSearch(e.target.value);
+                }}
+                name="search"
+                type="text"
+                className="border-2 border-gray-400 rounded-md w-full"
+              />
+            </div>
           </div>
 
           {/* Table based on the active tab */}
           {activeTab === "Accepted" &&
-            renderTable(betaApps?.filter((el) => el.status === "Accepted"))}
+            renderTable(
+              betaApps?.filter(
+                (el) =>
+                  el.status === "Accepted" &&
+                  el.createdBy?.discord_id.includes(search)
+              )
+            )}
           {activeTab === "Pending" &&
-            renderTable(betaApps?.filter((el) => el.status === "Pending"))}
+            renderTable(
+              betaApps?.filter(
+                (el) =>
+                  el.status === "Pending" &&
+                  el.createdBy?.discord_id.includes(search)
+              )
+            )}
           {activeTab === "Rejected" &&
-            renderTable(betaApps?.filter((el) => el.status === "Rejected"))}
+            renderTable(
+              betaApps?.filter(
+                (el) =>
+                  el.status === "Rejected" &&
+                  el.createdBy?.discord_id.includes(search)
+              )
+            )}
         </main>
       </div>
     </div>

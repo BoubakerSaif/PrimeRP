@@ -12,7 +12,11 @@ const BetaApps = () => {
   const { betaApps, acceptedApp, rejectedApp } = useSelector(
     (state) => state.beta
   );
+
   const [search, setSearch] = useState("");
+  let allBetaApps = betaApps?.filter((el) =>
+    el.createdBy?.discord_id.includes(search)
+  );
   useEffect(() => {
     dispatch(getAllBetaApps());
   }, [acceptedApp, rejectedApp]);
@@ -277,29 +281,11 @@ const BetaApps = () => {
 
           {/* Table based on the active tab */}
           {activeTab === "Accepted" &&
-            renderTable(
-              betaApps?.filter(
-                (el) =>
-                  el.status === "Accepted" &&
-                  el.createdBy?.discord_id.includes(search)
-              )
-            )}
+            renderTable(allBetaApps?.filter((el) => el.status === "Accepted"))}
           {activeTab === "Pending" &&
-            renderTable(
-              betaApps?.filter(
-                (el) =>
-                  el.status === "Pending" &&
-                  el.createdBy?.discord_id.includes(search)
-              )
-            )}
+            renderTable(allBetaApps?.filter((el) => el.status === "Pending"))}
           {activeTab === "Rejected" &&
-            renderTable(
-              betaApps?.filter(
-                (el) =>
-                  el.status === "Rejected" &&
-                  el.createdBy?.discord_id.includes(search)
-              )
-            )}
+            renderTable(allBetaApps?.filter((el) => el.status === "Rejected"))}
         </main>
       </div>
     </div>

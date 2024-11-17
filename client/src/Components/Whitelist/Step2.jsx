@@ -1,15 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import fivem from "../../assets/fivem.png";
 
 const Step2 = ({ setStep }) => {
   return (
     <div className="text-white flex items-start justify-around max-lg:justify-center h-[400px] w-[700px] max-xl:w-[600px] max-sm:w-[300px]  mt-12 max-sm:flex-col max-sm:items-center ">
-      <img
-        src={
-          "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729259753/fivemlogo_gqzwht.png"
-        }
-        className="w-60 "
-      />
+      <img src={fivem} className="w-60 " />
       <div className="flex flex-col items-center  h-32 w-96 justify-around max-sm:w-[300px] ">
         <h1 className="font-bold text-2xl max-sm:text-base">
           Have you installed FiveM ?

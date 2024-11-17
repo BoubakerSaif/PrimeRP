@@ -1,5 +1,11 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Cleaning from "../../src/assets/Cleaning.png";
+import Fishing from "../../src/assets/Fishing.png";
+import Logistics from "../../src/assets/Logistics.png";
+import Electricity from "../../src/assets/Electricity.png";
+import Miner from "../../src/assets/Miner.png";
+
 const Jobs = () => {
   return (
     <div className=" w-full h-screen max-sm:h-auto flex flex-col items-center justify-evenly   bg-[#010101] text-white text-center font-bold font-Poppins  ">
@@ -21,42 +27,27 @@ const Jobs = () => {
         transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
       >
         <div className="group hover:cursor-pointer flex flex-col items-center   ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247216/logistic_ps3lea.png"
-            className="w-64 max-sm:w-32 max-lg:w-40"
-          />
+          <img src={Logistics} className="w-64 max-sm:w-32 max-lg:w-40" />
 
           <p>Logistics</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247217/cleaning_jgnpae.png"
-            className="w-64 max-sm:w-32 max-lg:w-40"
-          />
+          <img src={Cleaning} className="w-64 max-sm:w-32 max-lg:w-40" />
 
           <p>Cleaning</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247217/fishing_tj8uno.png"
-            className="w-64 max-sm:w-32 max-lg:w-40"
-          />
+          <img src={Fishing} className="w-64 max-sm:w-32 max-lg:w-40" />
 
           <p>Fishing </p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247215/Electric_hdmygu.png"
-            className="w-64 max-sm:w-32 max-lg:w-40"
-          />
+          <img src={Electricity} className="w-64 max-sm:w-32 max-lg:w-40" />
 
           <p> Electricity</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247217/miner_jdimtb.png"
-            className="w-64 max-sm:w-32 max-lg:w-40"
-          />
+          <img src={Miner} className="w-64 max-sm:w-32 max-lg:w-40" />
 
           <p>Miner</p>
         </div>

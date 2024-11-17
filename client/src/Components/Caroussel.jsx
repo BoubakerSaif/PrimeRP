@@ -1,18 +1,16 @@
 import React, { useEffect, useState } from "react";
 import { motion, useMotionValue } from "framer-motion";
-
-const imgs = [
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271091/2_cj2vpt.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271105/4_lthsux.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271203/scientist_wrpatc.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271152/dead_sandy_d5qn9l.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271168/governor_znu9gw.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271185/farmer_f4goha.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271277/smuggler_ctzxqb.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271232/warden_2_giydtx.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271219/keeper_fnzg85.png",
-  "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271135/business_man_h2xesa.png",
-];
+import p1 from "../../src/assets/p1.png";
+import p2 from "../../src/assets/p2.png";
+import p3 from "../../src/assets/p3.png";
+import p4 from "../../src/assets/p2.png";
+import sience from "../../src/assets/sience.png";
+import p5 from "../../src/assets/p5.png";
+import p6 from "../../src/assets/p6.png";
+import p7 from "../../src/assets/p7.png";
+import p8 from "../../src/assets/p8.png";
+import p9 from "../../src/assets/p9.png";
+const imgs = [p1, p2, p3, p4, sience, p5, p6, p7, p8, p9];
 const ONE_SECOND = 1000;
 const AUTO_DELAY = ONE_SECOND * 3;
 const DRAG_BUFFER = 50;

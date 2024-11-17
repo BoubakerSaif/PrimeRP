@@ -1,5 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
+import ward from "../../src/assets/ward.png";
+import ems from "../../src/assets/ems.png";
+import keepers from "../../src/assets/keepers.png";
+import ranger from "../../src/assets/ranger.png";
 
 const Factions = () => {
   return (
@@ -24,34 +28,22 @@ const Factions = () => {
         transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
       >
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247027/warden_v8zpzc.png"
-            className="w-64 max-sm:w-32 max-lg:w-56"
-          />
+          <img src={ward} className="w-64 max-sm:w-32 max-lg:w-56" />
 
           <p>Warden Branch</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247025/ems_cesul1.png"
-            className="w-64 max-sm:w-32 max-lg:w-56"
-          />
+          <img src={ems} className="w-64 max-sm:w-32 max-lg:w-56" />
 
           <p>Scientist federation</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247028/ranger_hyu699.png"
-            className="w-64 max-sm:w-32 max-lg:w-56"
-          />
+          <img src={ranger} className="w-64 max-sm:w-32 max-lg:w-56" />
 
           <p>Ranger Legion</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center  ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247028/keepers_f7b3hk.png"
-            className="w-64 max-sm:w-32 max-lg:w-56"
-          />
+          <img src={keepers} className="w-64 max-sm:w-32 max-lg:w-56" />
 
           <p>Wall Keepers Correction</p>
         </div>

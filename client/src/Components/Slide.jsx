@@ -1,5 +1,8 @@
 import React from "react";
 
+import gta5 from "../../src/assets/gta5.png";
+import fivem from "../../src/assets/fivem.png";
+
 import { FaShoppingCart } from "react-icons/fa";
 import { IoMdDownload } from "react-icons/io";
 import { Link } from "react-router-dom";
@@ -27,21 +30,14 @@ const Slide = () => {
           </div>
 
           <div className="flex justify-between items-center w-[650px] max-sm:flex-col max-sm:h-auto max-sm:gap-3 max-sm:w-[300px] max-sm:text-center   max-sm:mt-5  h-28 bg-[#131313] border-[1px]  border-[#3d3d3d] rounded-md p-3 max-md:w-[500px] lg:mt-3   ">
-            <img
-              src={
-                "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729259719/gta5_ke2fnq.png"
-              }
-              className="w-28"
-            />
+            <img src={gta5} className="w-28" />
             <div className="font-Poppins text-sm">
               <p>Buy Grand Theft Auto V.</p>
               <p>If you do not already have a licensed version</p>
             </div>
             <Link
               target="_blank"
-              to={
-                "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V/"
-              }
+              to={gta5}
               className="flex gap-2 items-center px-8 py-1 bg-white brightness-125 rounded-md  w-44 justify-center  "
             >
               <FaShoppingCart className="text-black" />
@@ -49,12 +45,7 @@ const Slide = () => {
             </Link>
           </div>
           <div className="flex justify-between items-center w-[650px] max-sm:flex-col max-sm:h-auto max-sm:w-[300px] max-sm:gap-8  max-sm:text-center  h-28 bg-[#131313] p-3 border-[1px] border-[#3d3d3d] rounded-md max-md:w-[500px]    ">
-            <img
-              src={
-                "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729259753/fivemlogo_gqzwht.png"
-              }
-              className="w-28 h-12"
-            />
+            <img src={fivem} className="w-28 h-12" />
             <div className="font-Poppins text-sm">
               <p>Download FiveM Launcher</p>
               <p>Launcher will download necessary server files</p>

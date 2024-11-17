@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import warden from "../../src/assets/warden.png";
 
 const MainHero_2 = () => {
   return (
@@ -10,10 +11,7 @@ const MainHero_2 = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729374052/wallkeepr_lr83ku.png"
-          className="w-[600px] max-lg:w-96 max-sm:w-44  "
-        />
+        <img src={warden} className="w-[600px] max-lg:w-96 max-sm:w-44  " />
         <div>
           <p className=" text-slate-400 text-3xl  text-opacity-80  font-bold flex-col max-sm:text-xl ">
             BECOME

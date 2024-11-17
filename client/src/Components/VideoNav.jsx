@@ -10,7 +10,7 @@ import "./Border.css";
 import { getmyBetaApp } from "../Redux/betaAppSlice";
 import { LuServerOff } from "react-icons/lu";
 import Button from "./Button";
-
+import intro from "../../src/assets/intro.mp4";
 const VideoNav = () => {
   const dispatch = useDispatch();
   const logout = (e) => {
@@ -54,9 +54,7 @@ const VideoNav = () => {
       }  `}
     >
       <video
-        src={
-          "https://res.cloudinary.com/dl6o7cgmp/video/upload/v1729246699/Trailer_usu0kx.mp4"
-        }
+        src={intro}
         autoPlay
         loop
         muted

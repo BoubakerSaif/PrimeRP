@@ -1,14 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import gta5 from "../../assets/gta5.png";
 const Step1 = ({ setStep }) => {
   return (
     <div className="text-white flex items-start justify-around h-[400px]  w-[700px] max-xl:w-[600px] max-sm:w-[300px] mt-12 max-sm:flex-col max-sm:items-center  ">
-      <img
-        src={
-          "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729259719/gta5_ke2fnq.png"
-        }
-        className="w-60 "
-      />
+      <img src={gta5} className="w-60 " />
       <div className="flex flex-col items-center  h-32 w-96 max-sm:w-[300px] justify-around ">
         <h1 className="font-bold text-2xl max-sm:text-base">
           Have you bought GTA V?

@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import star from "../../src/assets/star.png";
 
 const MainHero_6 = () => {
   return (
@@ -10,10 +11,7 @@ const MainHero_6 = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729370039/star_rr9anf.png"
-          className="w-[600px] max-lg:w-96 max-sm:w-44   "
-        />
+        <img src={star} className="w-[600px] max-lg:w-96 max-sm:w-44   " />
         <div>
           <p className=" text-slate-400 text-3xl  text-opacity-80  font-bold flex-col max-sm:text-xl   ">
             BECOME

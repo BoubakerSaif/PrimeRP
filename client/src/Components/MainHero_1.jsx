@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import criminal from "../../src/assets/criminal.png";
 const MainHero_1 = () => {
   return (
     <div className=" bg-[#010101] text-center relative h-[650px]  font-Poppins max-sm:h-[300px] ">
@@ -17,10 +18,7 @@ const MainHero_1 = () => {
             CRIMINAL
           </p>
         </div>
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247127/c2_u5g5fo.png"
-          className="w-[600px] max-lg:w-96 max-sm:w-44  "
-        />
+        <img src={criminal} className="w-[600px] max-lg:w-96 max-sm:w-44  " />
       </motion.div>
     </div>
   );

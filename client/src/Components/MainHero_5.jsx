@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import villain from "../../src/assets/villain.png";
+
 const MainHero_5 = () => {
   return (
     <div className=" bg-[#010101] text-center relative h-[650px] font-Poppins  max-sm:h-[300px]     ">
@@ -17,10 +19,7 @@ const MainHero_5 = () => {
             VILLAIN
           </p>
         </div>
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729370019/villain_cr6ntj.png"
-          className="w-[600px] max-lg:w-96 max-sm:w-44   "
-        />
+        <img src={villain} className="w-[600px] max-lg:w-96 max-sm:w-44   " />
       </motion.div>
     </div>
   );

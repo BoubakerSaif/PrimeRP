@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import sience from "../../src/assets/sience.png";
 
 const MainHero_3 = () => {
   return (
@@ -19,10 +20,7 @@ const MainHero_3 = () => {
             SCIENTIST
           </p>
         </div>
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729374064/scientist_qe7yjx.png"
-          className="w-[600px] max-lg:w-96  max-sm:w-40  "
-        />
+        <img src={sience} className="w-[600px] max-lg:w-96  max-sm:w-40  " />
       </motion.div>
     </div>
   );

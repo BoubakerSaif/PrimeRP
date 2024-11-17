@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
-
+import wall from "../../src/assets/wall.png";
+import metro from "../../src/assets/metro.png";
 const RPGuide = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -215,15 +216,11 @@ const RPGuide = () => {
             <div className=" w-[500px] flex items-center max-xl:hidden justify-around   ">
               <div className="flex flex-col gap-20">
                 <img
-                  src={
-                    "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729271122/6_d4mji6.png"
-                  }
+                  src={wall}
                   className="max-2xl:w-[400px] w-[500px] rounded-3xl rotate-6 brightness-75  outline outline-offset-1 outline-[#3d3d3d] "
                 />
                 <img
-                  src={
-                    "https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729272773/metro_utz9e9.png"
-                  }
+                  src={metro}
                   className="max-2xl:w-[400px] w-[500px] rounded-3xl -rotate-6 brightness-75  outline outline-offset-1 outline-[#3d3d3d] "
                 />
               </div>

@@ -1,8 +1,16 @@
 import React from "react";
 import { motion } from "framer-motion";
+import tabac from "../../src/assets/tabac.png";
+import Engineer from "../../src/assets/Engineer.png";
+import Real_Estate from "../../src/assets/Real_Estate.png";
+import burger from "../../src/assets/burger.png";
+import Noodles from "../../src/assets/Noodles.png";
+import Shisha_Bar from "../../src/assets/Shisha_Bar.png";
+import meca from "../../src/assets/meca.png";
+
 const Businesses = () => {
   return (
-    <div className=" w-full h-screen max-sm:h-auto flex flex-col items-center justify-evenly   bg-[#010101] text-white text-center font-bold max-md:h-auto">
+    <div className=" w-full h-screen max-sm:h-auto flex flex-col items-center justify-evenly  bg-[#010101] text-white text-center font-bold max-md:h-auto">
       <motion.div
         className="font-Poppins font-bold"
         initial={{ opacity: 0 }}
@@ -24,58 +32,37 @@ const Businesses = () => {
         transition={{ delay: 0.5, duration: 0.8, ease: "easeInOut" }}
       >
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729257616/az_wn0jai.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={tabac} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p> Tobacco</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729258034/az_3_wfyqhi.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={Engineer} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p>Engineer</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247270/realstate_j8tcro.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={Real_Estate} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p>Real Estate</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247366/burger_blqxav.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={burger} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p>Burger</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247402/noodles_bw56x6.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={Noodles} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p>Noodles</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247381/shisha_jt90jo.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={Shisha_Bar} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p>Shisha Bar</p>
         </div>
         <div className="group hover:cursor-pointer flex flex-col items-center relative ">
-          <img
-            src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729274872/m%C3%A9cano_mvoxtz.png"
-            className="w-64 max-sm:w-32 max-2xl:w-40"
-          />
+          <img src={meca} className="w-64 max-sm:w-32 max-2xl:w-40" />
 
           <p className="absolute top-[70%] ">Mechanic</p>
         </div>

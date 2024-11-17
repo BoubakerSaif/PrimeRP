@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { FaPlayCircle } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import women from "../../src/assets/women.png";
 
 const MainHero_7 = () => {
   return (
@@ -21,7 +22,7 @@ const MainHero_7 = () => {
           </p>
         </div>
         <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247131/c5_ipvev1.png"
+          src={women}
           className="w-[600px] max-lg:w-96 transform scale-x-|-1]  max-sm:w-44   "
         />
       </motion.div>

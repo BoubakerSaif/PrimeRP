@@ -1,5 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
+import gov from "../../src/assets/gov.png";
+
 const MainHero_4 = () => {
   return (
     <div className=" bg-[#010101] text-center relative h-[650px]  border-red-600 font-Poppins max-sm:h-[300px]     ">
@@ -9,10 +11,7 @@ const MainHero_4 = () => {
         whileInView={{ opacity: 1 }}
         transition={{ duration: 1, ease: "easeInOut" }}
       >
-        <img
-          src="https://res.cloudinary.com/dl6o7cgmp/image/upload/v1729247137/c3_z3zrwa.png"
-          className="w-[600px] max-lg:w-96 max-sm:w-40  "
-        />
+        <img src={gov} className="w-[600px] max-lg:w-96 max-sm:w-40  " />
         <div>
           <p className=" text-slate-400 text-3xl  text-opacity-80  font-bold flex-col max-sm:text-xl ">
             BECOME
